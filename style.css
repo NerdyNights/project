@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: hsl(235, 18%, 26%);
+}
+.f {
+  color: rgrgb(233, 152, 152);
+}
+.box {
+  height: 62%;
+  width: 47%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+.left {
+  background-color: white;
+  display: grid;
+  position: absolute;
+  place-items: center;
+  position: relative;
+  left: 30px;
+}
+.right {
+  position: fixed;
+  right: 20px;
+  border-radius: 20px;
+}
+.header {
+  font-size: 61px;
+  position: relative;
+  top: 25px;
+  color: hsl(235, 18%, 26%);
+}
+.info {
+  position: relative;
+  bottom: 20px;
+  font-size: 16px;
+  color: hsl(235, 18%, 26%);
+  font-weight: 400;
+}
+.table {
+  position: relative;
+  bottom: 35px;
+  font-size: 16px;
+  color: hsl(235, 18%, 26%);
+  font-weight: 400;
+}
+.point {
+  padding-left: 20px;
+}
+.form {
+  position: relative;
+  bottom: 45px;
+}
+.label {
+  font-size: 12px;
+  font-weight: 800;
+  position: relative;
+  bottom: 7px;
+}
+.email {
+  height: 45px;
+  width: 380px;
+  border-radius: 10px;
+  border: 1px solid hsl(231, 7%, 60%);
+  padding-left: 20px;
+  background-color: white;
+}
+.btnSubmit {
+  height: 45px;
+  width: 400px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 15px;
+}
+.btnSubmit:active {
+  background-color: hsl(4, 100%, 67%);
+  box-shadow: 0 10px 30px hsl(4, 100%, 67%);
+}
+.hid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  height: 35%;
+  padding: 50px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.svg {
+  background-color: hsl(4, 100%, 67%);
+  border-radius: 50%;
+}
+.header2 {
+  font-size: 50px;
+  color: hsl(235, 18%, 26%);
+}
+.successinfo {
+  color: hsl(235, 18%, 26%);
+}
+.btnsuccess {
+  height: 45px;
+  width: 400px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btnsuccess:active {
+  background-color: hsl(4, 100%, 67%);
+  box-shadow: 0 10px 30px hsl(4, 100%, 67%);
+}
+.hidden {
+  display: none;
+}
+.error {
+  color: hsl(4, 100%, 67%);
+  font-size: 12px;
+  position: absolute;
+  left: 43vw;
+  top: 59vh;
+}
