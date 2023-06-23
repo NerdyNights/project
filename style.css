@@ -32,8 +32,6 @@ body {
   left: 30px;
 }
 .right {
-  position: fixed;
-  right: 20px;
   border-radius: 20px;
 }
 .header {
