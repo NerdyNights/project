@@ -3,6 +3,7 @@
   padding: 0;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+  object-fit:original;
 }
 body {
   background-color: hsl(235, 18%, 26%);
